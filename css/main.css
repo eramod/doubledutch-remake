@@ -27,17 +27,22 @@ header img {
 
 /* Navigation Bar */
 
+
 ul {
     float: right;
+    margin: 1.25em -1em 0 0;
     width: 50%;
 }
 
 nav li {
     display: inline-block;
     font-size: 80%;
+    padding: 0 0 0 15px;
     text-transform: uppercase;
-
 }
+
+
+
 
 
 
