@@ -55,7 +55,8 @@ ul a {
 
 /* Main Content */
 
-.slideshow {
+.slideshow, 
+img {
     margin: 10px 0;
 }
 
@@ -71,7 +72,9 @@ ul a {
     float: right;
 }
 
-
+.border {
+    border: 1px solid #ddd;
+}
 
 /* DRY Classes */
 
