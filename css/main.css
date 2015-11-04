@@ -76,6 +76,13 @@ img {
     border: 1px solid #ddd;
 }
 
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #eee;
+}
+
 /* DRY Classes */
 
 .clearfix:after {
@@ -83,4 +90,6 @@ img {
   display: table;
   clear: both;
 }
+
+
 
