@@ -5,7 +5,7 @@
 }
 
 main {
-    width: 80%;
+    width: 76%;
     margin: 0 auto;
 }
 
@@ -27,11 +27,14 @@ header img {
 
 /* Navigation Bar */
 
+nav {
+    border-bottom: 1px solid #ddd;
+}
 
 ul {
     float: right;
-    margin: 1.25em -1em 0 0;
-    width: 50%;
+    margin-top: 1.25em;
+    width: 51.5%;
 }
 
 nav li {
