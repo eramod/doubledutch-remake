@@ -41,7 +41,14 @@ nav li {
     text-transform: uppercase;
 }
 
+ul a {
+    text-decoration: none;
+}
 
+.active {
+    color: #F23792;
+    font-weight: bold;
+}
 
 
 
