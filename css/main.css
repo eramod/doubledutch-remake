@@ -1,0 +1,51 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+
+header {
+    padding-top: 20px;
+}
+
+header img {
+    border-radius: 3px;
+    float: right;
+    height: 30px;
+    margin-left: 4px;
+    width: 30px;
+}
+
+/* Navigation Bar */
+
+ul {
+    float: right;
+    width: 50%;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 80%;
+    text-transform: uppercase;
+
+}
+
+
+
+/* DRY Classes */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
