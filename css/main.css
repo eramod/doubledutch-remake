@@ -1,10 +1,15 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+
 * {
     box-sizing: border-box;
 }
 
 main {
+    font-family: 'Open Sans', sans-serif;
     width: 76%;
     margin: 0 auto;
 }
@@ -58,6 +63,7 @@ ul a {
 .slideshow, 
 img {
     margin: 10px 0;
+    max-width: 100%;
 }
 
 .col-1-2 {
@@ -81,6 +87,60 @@ img {
 
 footer {
     border-top: 1px solid #eee;
+}
+
+.footer-container {
+    height: 2em;
+    margin: 1.75em auto;
+    width: 76%;
+}
+
+.copyright {
+    color: #777;
+    float: left;
+    font-size: .8em;
+    margin-top: -10px;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+form {
+    float: right;
+    position: relative;
+    width: 33%;
+}
+
+input, 
+.button {
+    display: inline-block;
+}
+
+button {
+    background-color: #ff1493;
+    border-color: #ff1493;
+    color: white;
+    font-size: .75em;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px 15px 9px;
+    position: absolute; /* to align with right margin */
+    right: 0; /* to align with right margin */
+    top: -4px;
+    text-transform: uppercase;
+}
+
+input {
+    height: 30px;
+    width: 220px;
+}
+
+input[placeholder] {
+    font-size: .75em;
+}
+
+
+.designer {
+    color: #ff1493;
 }
 
 /* DRY Classes */
