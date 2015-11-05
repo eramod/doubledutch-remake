@@ -49,6 +49,10 @@ nav li {
     text-transform: uppercase;
 }
 
+nav a:hover {
+    color: #F23792;
+}
+
 ul a {
     text-decoration: none;
 }
