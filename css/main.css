@@ -19,31 +19,28 @@ main {
 /* Header */
 
 header {
-    padding-top: 20px;
+	border-bottom: 1px solid #ddd;
+  padding-top: 20px;
 }
 
-header img {
-    border-radius: 3px;
-    float: right;
-    height: 30px;
-    margin-left: 4px;
-    width: 30px;
+.logo {
+    float: left;
 }
 
 /* Navigation Bar */
 
 nav {
-    border-bottom: 1px solid #ddd;
+    text-align: right;
 }
 
 ul {
     float: right;
     margin-top: 1.25em;
-    width: 51.5%;
+    width: 68%;
 }
 
 nav li {
-    display: inline-block;
+    display: inline-block; 
     font-size: 80%;
     padding: 0 0 0 15px;
     text-transform: uppercase;
@@ -53,12 +50,14 @@ nav a:hover {
     color: #F23792;
 }
 
-ul a {
+ul li a {
+		color: #333;
     text-decoration: none;
 }
 
 .active {
     color: #F23792;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
