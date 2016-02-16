@@ -110,12 +110,17 @@ footer {
 form {
     float: right;
     position: relative;
-    width: 33%;
+    width: 60%;
 }
 
 input, 
 .button {
     display: inline-block;
+}
+
+input {
+	float: right;
+	margin-right: 95px;
 }
 
 button {
