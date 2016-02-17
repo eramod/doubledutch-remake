@@ -102,7 +102,7 @@ footer {
     color: #777;
     float: left;
     font-size: .8em;
-    margin-top: -10px;
+    margin-top: -70px;
     text-transform: uppercase;
     width: 40%;
 }
@@ -159,5 +159,31 @@ input[placeholder] {
   clear: both;
 }
 
+@media screen and (max-width: 950px) {
+	main, .footer-container  {
+		width: 90%;
+	}
 
+	nav ul, .logo {
+		float: none;
+	}
+
+	nav ul {
+		padding-left: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.copyright, form {
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.copyright {
+		margin-top: 0;
+		text-align: center;
+	}
+}
 
