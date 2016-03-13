@@ -33,7 +33,7 @@ nav {
     text-align: right;
 }
 
-ul {
+nav ul {
     float: right;
     margin-top: 1.25em;
     width: 68%;
@@ -50,7 +50,7 @@ nav a:hover {
     color: #F23792;
 }
 
-ul li a {
+nav ul li a {
 		color: #333;
     text-decoration: none;
 }
@@ -63,10 +63,17 @@ ul li a {
 
 /* Main Content */
 
-.slideshow, 
+.slideshow {  
+	margin: 0;
+}
+
 img {
-    margin: 10px 0;
-    max-width: 100%;
+	max-width: 100%;
+	margin: 10px 0;
+}
+
+.bslider {
+	height: 500px;
 }
 
 .col-1-2 {
